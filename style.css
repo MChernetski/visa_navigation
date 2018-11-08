@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color: rgb(67, 157, 179);
+  font-family: 'Lato',
+  sans-serif;
+  font-weight: 300;
+}
+
+#mainNavbar {
+  /* background-color:rgb(26, 30, 90); */
+  background: linear-gradient(to right, rgb(26, 30, 90), rgb(18, 45, 152));
+  line-height: 2;
+  font-size: 1.1rem;
+
+}
+#mainNavbar svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.search-icon {
+  margin-right: 6rem;
+  width: 4rem;
+  height: 2rem;
+
+}
+#mainNavbar svg g {
+  fill: rgb(247, 182, 0);
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+  height: 2.5rem;
+  margin-left: 15rem;
+  margin-right: 4rem;
+}
+#navLinks .nav-link {
+  color: #fff;
+
+}
+#navLinks .nav-link:hover {
+  color: #f9b20a;
+}
+#navLinks .nav-link.active{
+  color: #f9b20a;
+}
+
+.arrow {
+  border-top: 5px solid #f5c813;
+  font-size: 2rem;
+  color: #f5c813;
+}
+.arrow-icon {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+}
+
+@media (max-width: 1600px) {
+
+  #mainNavbar svg {
+    height: 2.5rem;
+  }
+
+  .navbar-brand img {
+    margin-left: 8rem;
+    margin-right: 3rem;
+  }
+
+}
+@media (max-width: 1500px) {
+  #mainNavbar {
+    font-size: 1.1rem;
+  }
+
+  #mainNavbar svg {
+    height: 2.2rem;
+  }
+
+  .navbar-brand img {
+    margin-left: 6rem;
+    margin-right: 1rem;
+  }
+
+}
+@media (max-width: 1400px) {
+  #mainNavbar {
+    font-size: 1rem;
+  }
+
+  #mainNavbar svg {
+    height: 2rem;
+  }
+
+  .navbar-brand img {
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+
+}
+@media (max-width: 1100px) {
+  #mainNavbar {
+    font-size: .9rem;
+  }
+  #mainNavbar svg {
+    height: 1.5rem;
+  }
+  .navbar-brand img {
+    height: 1.9rem;
+    margin-left: 2.5rem;
+    margin-right: 0
+  }
+  .search-icon {
+    margin-right: 4rem;
+  }
+
+}
+@media (max-width: 990px) {
+  #mainNavbar {
+    font-size: .8rem;
+  }
+  .navbar-brand img {
+    height: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .search-icon {
+    margin-right:0;
+  }
+
+}
+@media (max-width: 890px) {
+  #mainNavbar {
+    font-size: .65rem;
+  }
+
+}
+@media (max-width: 767.98px) {
+  #mainNavbar {
+    font-size: .8rem;
+    line-height: .5
+  }
+
+  .navbar-toggler-icon{
+    height: 1.5rem;
+  }
+
+.arrow-icon {
+  visibility: hidden;
+}
+.navbar-brand img {
+  margin-left: 0;
+}
+}
+
